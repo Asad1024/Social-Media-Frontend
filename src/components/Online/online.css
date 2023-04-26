@@ -1,0 +1,36 @@
+.onlineFriendList {
+  padding: 0;
+  margin: 0;
+}
+
+.onlineFriendLists {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.rightBarBottomImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.onlineBadge {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  top: -5px;
+  left: 25px;
+  border: 2px solid rgb(252, 252, 255);
+}
+
+.rightBarBottomText {
+  font-weight: 500;
+  font-size: 15px;
+}
